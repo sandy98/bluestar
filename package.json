@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Bluestar-like utility to convert images ",
   "main": "bluestar.js",
-  "bin": {"bluestar": "./bin/bluestar"}
+  "bin": {"bluestar": "./bin/bluestar"},
   "scripts": {
     "test": "cd test && node ../bluestar.js kw.png && cd ..",
     "build": "cp bluestar.js bin/bluestar && cd bin && chmod +x bluestar && pkg ../bluestar.js && cd ..",
