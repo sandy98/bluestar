@@ -39,4 +39,12 @@ bluestar whatever.png
 ```
 and get 2 files: whatever.b64 and whatever.html, which is a ready made html file to test the created image.
 
-That's pretty much all.
+With version 0.1.1 onwards, you also can import/require convert function for usage in your own apps, like so:
+
+```js
+const convert = require('bluestar');
+convert('photo.gif', (err, data) => {
+  if (err) console.error("Error No: " + err.number + " " + err.message)
+  else console.log(data)});
+
+```
