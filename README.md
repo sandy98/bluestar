@@ -33,6 +33,10 @@ In the second case, npm or yarn install, you get a system wide available version
 
 ## Usage
 
-This is the simplest part: just do bluestar whatever.png and get 2 files: whatever.b64 and whatever.html, which is a ready made html file to test the created image.
+This is the simplest part: just do 
+```sh 
+bluestar whatever.png 
+```
+and get 2 files: whatever.b64 and whatever.html, which is a ready made html file to test the created image.
 
 That's pretty much all.
