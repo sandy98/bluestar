@@ -2,11 +2,11 @@
   "name": "bluestar",
   "version": "0.1.0",
   "description": "Bluestar-like utility to convert images ",
-  "main": "bluestar.js",
+  "main": "bin/bluestar",
   "scripts": {
-    "test": "node bluestar.js kw.png",
-    "build": "cd bin && pkg ../bluestar.js",
-    "clean": "rm bin/*"
+    "test": "cd test && node ../bluestar.js kw.png && cd ..",
+    "build": "cp bluestar.js bin/bluestar && cd bin && chmod +x bluestar && pkg ../bluestar.js && cd ..",
+    "clean": "rm bin/* && rm test/*.b64 && rm test/*.html"
   },
   "repository": {
     "type": "git",

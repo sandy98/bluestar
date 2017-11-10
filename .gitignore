@@ -4,10 +4,13 @@
 /node_modules
 
 # testing
-
+/test/*.html
+/test/*.b64
 
 # production
-/bin
+/bin/bluestar-linux
+/bin/bluestar-macos
+/bin/bluestar-win.exe
 
 # misc
 /.vscode
