@@ -1,4 +1,4 @@
-# React Chess Board
+# Bluestar
 
 Tiny node.js based utility to convert images to base64 encoded string suitable to be embedded in web pages.
 
