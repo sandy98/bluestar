@@ -1,0 +1,29 @@
+{
+  "name": "bluestar",
+  "version": "0.1.0",
+  "description": "Bluestar-like utility to convert images ",
+  "main": "bluestar.js",
+  "scripts": {
+    "test": "node bluestar.js kw.png",
+    "build": "cd bin && pkg ../bluestar.js",
+    "clean": "rm bin/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandy98/bluestar.git"
+  },
+  "keywords": [
+    "images",
+    "bluestar",
+    "embedded"
+  ],
+  "author": "Domingo E. Savoretti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandy98/bluestar/issues"
+  },
+  "homepage": "https://github.com/sandy98/bluestar#readme",
+  "dependencies": {
+    "pkg": "^4.3.0-beta.1"
+  }
+}
